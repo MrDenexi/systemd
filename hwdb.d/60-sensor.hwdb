@@ -141,6 +141,9 @@ sensor:modalias:acpi:KIOX000A:*:dmi:*:svnARCHOS:pnARCHOS101CesiumEduc:*    # 101
 sensor:modalias:acpi:BOSC0200:*:dmi:*:svnASUSTeK*:*:rnBR1100FKA:*    # BR1100F, this is the ASUS Web name.
  ACCEL_MOUNT_MATRIX=0, -1, 0; -1, 0, 0; 0, 0, -1
 
+sensor:modalias:platform:HID-SENSOR-200073:dmi:*:svnASUSTeK*:*:rnBR1104FTA:* # BR1104F, this is the ASUS Web name.
+ ACCEL_MOUNT_MATRIX=1, 0, 0; 0, -1, 0; 0, 0, 1
+
 sensor:modalias:acpi:INVN6500:*:dmi:*:svnASUSTeK*:*:rnQ502LAB:*      # Q502LAB
 sensor:modalias:acpi:INVN6500:*:dmi:*:svnASUSTeK*:*:rnQ551LB:*       # Q551LB
 sensor:modalias:acpi:INVN6500:*:dmi:*:svnASUSTeK*:*:rnQ551LN:*       # Q551LN
